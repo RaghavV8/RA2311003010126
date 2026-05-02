@@ -63,7 +63,7 @@ Afford/
 
 ### 1 Clone the repository
 ```bash
-git clone <https://github.com/RaghavV8/RA2311003010126.git>
+git clone https://github.com/RaghavV8/RA2311003010126.git
 cd Afford
 ```
 ### 2 Install dependencies
