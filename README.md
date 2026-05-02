@@ -67,6 +67,7 @@ BASE_URL=http://20.207.122.201/evaluation-service
 
 SCHEDULER_PORT=3001
 NOTIFICATION_PORT=3002
+```
 
 ### Running the Services
 Vehicle Scheduler
