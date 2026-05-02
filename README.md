@@ -22,6 +22,7 @@ All services are integrated with the provided **AffordMed Test Server APIs** and
 ---
 
 ##  Project Structure
+```
 Afford/
 │
 ├── logging_middleware/
@@ -44,7 +45,7 @@ Afford/
 ├── .env
 ├── package.json
 └── notification_system_design.md
-
+```
 
 ## ⚙️ Setup Instructions
 
