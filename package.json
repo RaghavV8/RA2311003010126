@@ -1,0 +1,30 @@
+{
+  "name": "afford",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scheduler": "node vehicle_maintenance_scheduler/index.js",
+    "notify": "node notification_app_be/index.js",
+    "dev:scheduler": "nodemon vehicle_maintenence_scheduler/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghavV8/RA2311003010126.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RaghavV8/RA2311003010126/issues"
+  },
+  "homepage": "https://github.com/RaghavV8/RA2311003010126#readme",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
