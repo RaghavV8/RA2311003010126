@@ -1,5 +1,13 @@
 # RA2311003010126
 # AffordMed Backend Assignment
+A backend microservices system built as part of the AffordMed evaluation, focusing on logging, optimization, and notification prioritization.
+
+##  How It Works
+
+- Scheduler fetches vehicle data → applies optimization → returns max impact  
+- Notification service fetches updates → assigns priority → returns top 10  
+- Logging middleware captures all events and sends them to the test server 
+- Uses a Knapsack-based optimization approach to maximize total impact within capacity constraints.
 
 ##  Overview
 This project implements a backend system consisting of:
@@ -9,6 +17,8 @@ This project implements a backend system consisting of:
 -  Campus Notification Microservice
 
 All services are integrated with the provided **AffordMed Test Server APIs** and follow the required constraints.
+
+> All APIs were tested using Postman and verified with logging outputs.
 
 ---
 
