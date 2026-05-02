@@ -1,4 +1,5 @@
 import axios from "axios";
+
 const priorityMap = {
   Placement: 3,
   Event: 2,
@@ -7,6 +8,7 @@ const priorityMap = {
 
 export const getTopNotifications = (notifications, limit = 10) => {
   return notifications
+    .filter(n => !n.isRead) 
     .map(n => ({
       ...n,
       priority: priorityMap[n.Type] || 0,
