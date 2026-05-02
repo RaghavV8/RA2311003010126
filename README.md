@@ -51,13 +51,15 @@ Afford/
 
 ### 1 Clone the repository
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/RaghavV8/RA2311003010126.git>
 cd Afford
 ```
 ### 2 Install dependencies
 npm install
 
 ### 3️ Create .env file
+
+```env
 CLIENT_ID=your_client_id
 CLIENT_SECRET=your_client_secret
 ACCESS_TOKEN=your_access_token
