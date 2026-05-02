@@ -2,6 +2,8 @@
 # AffordMed Backend Assignment
 A backend microservices system built as part of the AffordMed evaluation, focusing on logging, optimization, and notification prioritization.
 
+> ⚠️ Note: API credentials are not included for security reasons. Use your own credentials provided by AffordMed.
+
 ##  How It Works
 
 - Scheduler fetches vehicle data → applies optimization → returns max impact  
